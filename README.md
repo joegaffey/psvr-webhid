@@ -9,15 +9,11 @@ As of 12/03/20 this requires a Chromium based browser with experimental features
 
 `chrome://flags/#enable-experimental-web-platform-features`
 
-As of same date it unfortunately does *not* work hosted from Glitch.com due to web feature policy restrictions :(
+As of same date it unfortunately does *not* work hosted from Glitch.com due to web feature policy restrictions :( so check it out [here](https://joegaffey.github.io/psvr-webhid/demo/).
 
-To try this out install [Node.js](https://nodejs.org/en/), download this project to your own machine, connect your PSVR breakout box's via its USB connection and in your terminal run: 
+Connect your PSVR's breakout box via its USB connection and hit the "Go" button. 
 
-`node server.js`
-
-Then launch the browser to localhost at the port number shown in the terminal.
-
-Hit the "Go" button and when prompted select the "PSVR Sensor" device and click "Connect". 
+When prompted select the "PSVR Sensor" device and click "Connect". 
 
 It doesn't do much just yet - so far it just pulls some sensor data from PSVR headset and puts it up on screen. 
 

@@ -1,0 +1,23 @@
+{
+  "name": "psvr-webhid",
+  "version": "0.0.1",
+  "description": "PSVR WebHID",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/psvr-webhid"
+  },
+  "license": "MIT",
+  "keywords": [
+    "psvr",
+    "webhid"
+  ]
+}
